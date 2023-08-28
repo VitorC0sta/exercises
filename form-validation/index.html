@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section class="container">
+        <header>
+            <h1>Cadastro</h1>
+            <ul>
+                <li>Nenhum campo pode estar vazio.</li>
+                <li>Usuário só podera ter letras e/ou números.</li>
+                <li>Usuário deverá ter entre 6 e 12 caracteres.</li>
+                <li>Senha precisará ter entre 6 e 12 caracteres.</li>
+            </ul>
+        </header> 
+        <form action="/" method="POST" class="formulary">
+            <input class="input-model" type="text" name="input-name" id="input-name" placeholder="Nome">
+            <input class="input-model" type="text" name="input-surname" id="input-surname" placeholder="Sobrenome">
+            <input class="input-model" type="text" name="input-cpf" id="input-cpf" placeholder="CPF"> 
+            <input class="input-model" type="text" name="input-user" id="input-user" placeholder="Nome de Usuário">
+            <input class="input-model" type="password" name="input-password" id="input-password" placeholder="Senha">
+            <input class="input-model" type="password" name="input-repassword" id="input-repassword" placeholder="Confirme a senha">
+            <button type="submit" id="button-model">Enviar</button>
+        </form>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
