@@ -42,12 +42,15 @@ body {
     margin-left: 3.5rem;
     text-align: left;
 }
+.container-form {
+    display: block;
+}
 
 .formulary {
     display: flex;
     flex-direction: column;
     margin-left: auto;
-
+    height: 90%;
 }
 
 .input-model {
@@ -58,7 +61,7 @@ body {
     padding-left: 0.3rem;
     font-size: 16px;
     width: 90%;
-    margin: 0.8rem auto; 
+    margin-top: 1.5rem; 
 
 }
 
@@ -66,14 +69,13 @@ body {
     outline: 0;
     padding-left: 0.5rem;
     border-bottom: #ccc solid 2px;
+}
+
+.input-model::placeholder {
     background-image: linear-gradient( to bottom,#8a3ab9 0%,#fbad50 100% ) ;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.input-model::placeholder {
-    color: #ccc;
     
 }
 
@@ -86,6 +88,7 @@ body {
     margin: 2rem auto;
     background-color: transparent;
     background-image:  linear-gradient( to bottom,#8a3ab9 0%,#fbad50 100% ) ;
+    box-shadow: 0 0 5px #ccc;
     border: none;
     height: 3rem;
     width: 5rem;
@@ -94,6 +97,11 @@ body {
     border-radius: 15px;
 }
 
+.error-text {
+    color: red;
+    font-size: 12px;
+    text-align: left;
+}
 #button-model:hover {
     color: transparent;
     background-clip: text;

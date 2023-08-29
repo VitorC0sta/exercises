@@ -17,17 +17,20 @@
                 <li>Senha precisará ter entre 6 e 12 caracteres.</li>
             </ul>
         </header> 
-        <form action="/" method="POST" class="formulary">
-            <input class="input-model" type="text" name="input-name" id="input-name" placeholder="Nome">
-            <input class="input-model" type="text" name="input-surname" id="input-surname" placeholder="Sobrenome">
-            <input class="input-model" type="text" name="input-cpf" id="input-cpf" placeholder="CPF"> 
-            <input class="input-model" type="text" name="input-user" id="input-user" placeholder="Nome de Usuário">
-            <input class="input-model" type="password" name="input-password" id="input-password" placeholder="Senha">
-            <input class="input-model" type="password" name="input-repassword" id="input-repassword" placeholder="Confirme a senha">
-            <button type="submit" id="button-model">Enviar</button>
-        </form>
+        <section class="container-form">
+            <form action="/" method="POST" class="formulary">
+                <input class="input-model" type="text" name="input-name" id="input-name" placeholder="Name">
+                <input class="input-model" type="text" name="input-surname" id="input-surname" placeholder="Surname">
+                <input class="input-model" type="text" name="input-cpf" id="input-cpf" placeholder="CPF">
+                <input class="input-model" type="text" name="input-user" id="input-user" placeholder="Username">
+                <input class="input-model" type="password" name="input-password" id="input-password" placeholder="Password">
+                <input class="input-model" type="password" name="input-repassword" id="input-repassword" placeholder="Password">
+                <button type="submit" id="button-model">Enviar</button>
+            </form>
+        </section>
     </section>
 
+    <script src="assets/js/valida-cpf.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
