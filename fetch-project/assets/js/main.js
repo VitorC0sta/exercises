@@ -65,6 +65,7 @@ function scope() {
       erroIMG.setAttribute('class', 'error');
       erroIMG.setAttribute('src', 'https://i.pinimg.com/564x/6e/bf/a6/6ebfa6babb801c4981571b5636764a5d.jpg');
       containerInfo.appendChild(erroIMG);
+      textSearch.value = "";
       return;
     }
 

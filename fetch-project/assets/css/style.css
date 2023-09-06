@@ -6,6 +6,7 @@
     box-sizing: content-box;
     font-size: 62.5%;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 body{
@@ -91,7 +92,10 @@ body{
     padding: 1.2rem;
 }
 
-#tittle {
+#tittle th{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2.6rem;
     background: #00000015;
 }
  
