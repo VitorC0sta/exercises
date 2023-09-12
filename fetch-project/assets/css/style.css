@@ -37,6 +37,7 @@ body{
 }
 .search-head {
     background-color: #0000001a;
+    box-shadow: 0 0 20rem #0000006e;
 
 }
 .wrap-head {
